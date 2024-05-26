@@ -5,8 +5,17 @@ public class Item {
     private int price;
     private int quantity;
 
-    public void addItem(Item item) {
-        int totalPrice = item.price * item.quantity;
-        System.out.println("상품명: " + item.name + "합계: " + totalPrice);
+    public Item(String name, int price, int quantity) {
+        this.name = name;
+        this.price = price;
+        this.quantity = quantity;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getTotalPrice() {
+        return price * quantity;
     }
 }
