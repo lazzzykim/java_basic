@@ -21,7 +21,7 @@ public class CastingMain6 {
         }
     }
 
-    // jdk 16버전에서는 instanceOf에 변수선언까지 가능하다.
+//     jdk 16버전에서는 instanceOf에 변수선언까지 가능하다.
 //    private static void call(Parent parent) {
 //        parent.parentMethod();
 //// child 인스턴스 인경우 childMethod() 실행
